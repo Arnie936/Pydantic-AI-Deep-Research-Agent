@@ -6,11 +6,11 @@ Unlike simple chatbots, this agent functions as an autonomous research team. It 
 
 ## Key Features
 
-- **ðŸ§  Multi-Agent Orchestration**: Coordination between four specialized agents (Classifier, Planner, Researcher, Writer).
-- **ðŸŒ Real-Time Web Research**: Integrated with **DuckDuckGo** for live search results.
-- **ðŸ“„ Content Scraping**: Fetches and reads actual web page content (not just snippets) for deep analysis.
-- **âš¡ Parallel Execution**: Runs research on multiple angles simultaneously for speed.
-- **ðŸ“Š Structured Reporting**: Generates a professional Markdown report with:
+- **Multi-Agent Orchestration**: Coordination between four specialized agents (Classifier, Planner, Researcher, Writer).
+- **Real-Time Web Research**: Integrated with **DuckDuckGo** for live search results.
+- **Content Scraping**: Fetches and reads actual web page content (not just snippets) for deep analysis.
+- **Parallel Execution**: Runs research on multiple angles simultaneously for speed.
+- **Structured Reporting**: Generates a professional Markdown report with:
   - Executive Summary
   - Detailed Sections with Citations
   - Risks & Uncertainties
@@ -81,3 +81,4 @@ Open your browser to the local URL provided (usually `http://127.0.0.1:7860`).
 - `main.py`: The Gradio frontend and UI logic.
 - `research_agent.py`: Core logic containing the agent definitions, tools, and the `deep_research` orchestration generator.
 - `requirements.txt`: Python package dependencies.
+
